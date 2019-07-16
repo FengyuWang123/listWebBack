@@ -7,5 +7,5 @@ app_name = 'public'
 
 urlpatterns = [
 	path('index', views.index, name='index'),
-    path('', views.mainPage, name='mainPage'),
+    path('', views.index, name='index'),
 ]
