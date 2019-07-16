@@ -7,4 +7,7 @@ from public.models import *
 def index(request):
 	context = {}
 	return render(request, '../templates/index.html', context)
-# Create your views here.
+
+def mainPage(request):
+	context = {}
+	return render(request, '../templates/mainPage.html', context)
